@@ -1,6 +1,6 @@
 'use client';
 import { Icon, Sparkles } from './icons';
-import { Badge, StatusText } from './primitives';
+import { Badge, StatusText, Button } from './primitives';
 import { CORR } from './correctorData';
 import React from 'react';
 /* Asistente de Corrección con IA — wizard completo.
