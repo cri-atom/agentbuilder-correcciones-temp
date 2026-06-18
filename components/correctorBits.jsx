@@ -1,5 +1,5 @@
 'use client';
-import { Icon } from './icons';
+import { Icon, Sparkles } from './icons';
 import { Badge, StatusText } from './primitives';
 import { CORR } from './correctorData';
 import React from 'react';

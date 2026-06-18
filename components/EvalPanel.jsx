@@ -1,5 +1,5 @@
 'use client';
-import { Icon, IconButton } from './icons';
+import { Icon, IconButton, Sparkles } from './icons';
 import { Button, Badge, Toast, StatusText, Checkbox, OptionCard } from './primitives';
 import { CORR } from './correctorData';
 import { CorrectorPanel } from './CorrectorPanel';
