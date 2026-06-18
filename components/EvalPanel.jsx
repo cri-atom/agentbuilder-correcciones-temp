@@ -1,6 +1,6 @@
 'use client';
 import { Icon, IconButton, Sparkles } from './icons';
-import { Button, Badge, Toast, StatusText, Checkbox, OptionCard } from './primitives';
+import { Button, Badge, Toast, StatusText, Checkbox, OptionCard, HelpDot, Field, SegmentedControl, SelectionTile, TextInput, TextArea } from './primitives';
 import { CORR } from './correctorData';
 import { CorrectorPanel } from './CorrectorPanel';
 import React from 'react';
