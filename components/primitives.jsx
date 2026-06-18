@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Icon } from './icons';
+import { Icon, Sparkles, CircleCheck, CircleAlert } from './icons';
 
 /* Atom Agent Builder — UI primitives. Depends on icons.jsx + colors_and_type.css.
    Exposes: Button, IconButton, Badge, StatusText, Checkbox, SegmentedControl,
@@ -52,7 +52,7 @@ import { Icon } from './icons';
     };
     return React.createElement('span', {
       style: { display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: 12.5, fontWeight: 600, padding: '3px 10px', borderRadius: 'var(--r-pill)', ...styles[kind] }
-    }, kind === 'ai' && React.createElement(window.Sparkles, { size: 12 }), children);
+    }, kind === 'ai' && React.createElement(Sparkles, { size: 12 }), children);
   }
 
   const STATUS_COLOR = { Completada: 'var(--success)', 'Evaluando…': 'var(--warning)', Cancelada: 'var(--gray-500)', Error: 'var(--danger)', Borrador: 'var(--gray-500)' };
@@ -98,7 +98,7 @@ import { Icon } from './icons';
       onMouseLeave: e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.boxShadow = 'none'; }
     },
       React.createElement('div', { style: { color: ai ? 'var(--ai-purple)' : 'var(--ink)', marginBottom: 14 } },
-        ai ? React.createElement(window.Sparkles, { size: 24 }) : React.createElement(Icon, { name: icon, size: 24 })),
+        ai ? React.createElement(Sparkles, { size: 24 }) : React.createElement(Icon, { name: icon, size: 24 })),
       React.createElement('div', { style: { fontSize: 17, fontWeight: 600, letterSpacing: '-0.01em' } }, title),
       React.createElement('div', { style: { fontSize: 14, color: 'var(--gray-500)', marginTop: 4 } }, desc));
   }
@@ -140,7 +140,7 @@ import { Icon } from './icons';
     return React.createElement('div', {
       style: { position: 'fixed', right: 28, bottom: 28, display: 'flex', alignItems: 'center', gap: 11, background: '#fff', border: '1px solid var(--border)', borderRadius: 'var(--r-lg)', padding: '14px 18px', boxShadow: 'var(--shadow-lg)', fontSize: 15, fontWeight: 500, maxWidth: 430, zIndex: 60, animation: 'toastIn .25s ease' }
     },
-      kind === 'success' ? React.createElement(window.CircleCheck, { size: 22 }) : React.createElement(window.CircleAlert, { size: 22 }),
+      kind === 'success' ? React.createElement(CircleCheck, { size: 22 }) : React.createElement(CircleAlert, { size: 22 }),
       children);
   }
 

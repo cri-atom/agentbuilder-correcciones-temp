@@ -1,4 +1,6 @@
 'use client';
+import React from 'react';
+
 /* Atom Agent Builder — Lucide-style stroke icons + brand mark.
    Stroke 2px, round caps/joins, 24px grid. Mirrors the product's icon set.
    Exposes window.Icon (generic) + named helpers. */
@@ -77,7 +79,7 @@
       React.createElement('circle', { cx: 12, cy: 12, r: 10 }), React.createElement('path', { d: 'M12 8v4' }), React.createElement('path', { d: 'M12 16h.01' }));
   }
   function AtomMark({ size = 28, style }) {
-    return React.createElement('img', { src: (window.__resources && window.__resources.atomIsotype) || 'assets/atom-isotype.svg', width: size, height: size, alt: 'Atom', style });
+    return React.createElement('img', { src: '/atom-logo.svg', width: size, height: size, alt: 'Atom', style });
   }
 
 export { Icon, Sparkles, PlaySolid, CircleCheck, CircleAlert, AtomMark };

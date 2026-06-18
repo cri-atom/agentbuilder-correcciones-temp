@@ -3,7 +3,6 @@ import { Icon, IconButton } from './icons';
 import { Button, Badge, Toast, StatusText, Checkbox, OptionCard } from './primitives';
 import { CORR } from './correctorData';
 import { CorrectorPanel } from './CorrectorPanel';
-import { CorrectorBits, EntryCard, ConfigPanel } from './correctorBits';
 import React from 'react';
 /* Atom Agent Builder — Evaluations slide-over panel + all sub-screens.
    Internal router (list → new → simular/trafico → detail → case).
