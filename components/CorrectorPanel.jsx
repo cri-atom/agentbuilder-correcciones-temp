@@ -2,7 +2,7 @@
 import { Icon } from './icons';
 import { Button, Badge } from './primitives';
 import { CORR } from './correctorData';
-import { CorrectorBits } from './correctorBits';
+import { CorrectorBits, ConfigPanel } from './correctorBits';
 import React from 'react';
 /* Asistente de Corrección con IA — panels + router.
    Depende de corrector.jsx (CorrectorBits), correctorData.jsx.
