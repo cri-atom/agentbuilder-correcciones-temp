@@ -1,0 +1,32 @@
+{
+  "name": "agentbuilder-correccion-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "extract-bundle.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cri-atom/agentbuilder-correcciones-temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cri-atom/agentbuilder-correcciones-temp/issues"
+  },
+  "homepage": "https://github.com/cri-atom/agentbuilder-correcciones-temp#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.1.0"
+  }
+}
